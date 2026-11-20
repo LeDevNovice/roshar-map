@@ -9,6 +9,7 @@
     "build:dev": "cross-env MAP_DEBUG=true vite build --mode dev",
     "preview": "vite preview --port 10010",
     "lint": "eslint .",
+    "test": "vitest run",
     "dumpTranslations": "node ./bin/dump-translations.js",
     "validateTranslations": "node ./bin/validate-translations.js",
     "convertTextures": "node ./bin/convert-textures.js"
@@ -56,6 +57,7 @@
     "vite": "^8.1.5",
     "vite-imagetools": "^9.0.3",
     "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^5.1.1",
     "vue-eslint-parser": "^10.4.0"
   },
   "eslintConfig": {
